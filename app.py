@@ -8,7 +8,7 @@ from huggingface_hub import login
 from transformers import AutoTokenizer, AutoModelForCausalLM
 from peft import PeftModel
 app = Flask(__name__)
-login(token="<PLACEHOLDER>")
+login(token="")
 
 # ✅ Login if needed — you can skip if you've already done "huggingface-cli login" before
 # login(token="hf_xxx...")
